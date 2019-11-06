@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Portfolio Project G</title>
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	</head>
+	<body>
+		<header>
+		<a href="index.html"><img src="styles/logo.png" id="logo"></a>
+			<div id="menu-container">
+		  		<div id="menu-wrapper">
+		      		<div id="hamburger-menu"><span></span><span></span><span></span></div><span></span>
+		    <!-- hamburger-menu -->
+		   		</div>
+
+		   	<!-- menu-wrapper -->
+		   		<ul class="menu-list accordion">
+		   			<li id="nav0" class="toggle"> 
+				         <a class="menu-link" href="index.html">Home</a>
+				    </li>
+		      		<li id="nav1" class="toggle accordion-toggle"> 
+		         		<span class="icon-plus"></span>
+		         		<a class="menu-link" href="#">Topics</a>
+		      		</li>
+		    <!-- menu-submenu accordon-content-->
+			      	<ul class="menu-submenu accordion-content">
+				        <li><a class="head" href="wearables.html">Wearables</a></li>
+				        <li><a class="head" href="playfulinteractions.html">Playful Interactions</a></li>
+				        <li><a class="head" href="artificialcreatures.html">Artificial Creatures</a></li>
+				        <li><a class="head" href="arvr.html">AR &amp; VR</a></li>
+			      	</ul>
+
+		    <!-- menu-submenu accordon-content-->
+			     	<li id="nav2" class="toggle accordion-toggle"> 
+			        	<span class="icon-plus"></span>
+			        	<a class="menu-link" href="#">Workshops</a>
+				    </li>
+				    <ul class="menu-submenu accordion-content">
+				    	<li><a class="head" href="arduino.html">Arduino</a></li>
+				    	<li><a class="head" href="vr.html">VR environments</a></li>
+				    	<li><a class="head" href="computervision.html">Computer Vision</a></li>
+				    </ul>
+
+			<!-- menu-submenu accordon-content-->
+					<li id="nav3" class="toggle"> 
+				         <a class="menu-link" href="excursions.html">Excursion</a>
+				    </li>
+
+			<!-- menu-submenu accordon-content-->
+					<li id="nav4" class="toggle"> 
+				         <a class="menu-link" href="labweeks.html">Lab weeks</a>
+				    </li>
+
+		   		</ul>
+		</div>
+		</header>
+		<main>
+			<!-- <img class="selfie" src="styles/elvira.jpg" alt="Picture of Elvira"></img> -->
+			<article id="article1">
+				<h1>AR &amp; VR</h1>
+				<p>Virtual reality (VR) is an artificial environment that is created with software and presented to the user in such a way that the user suspends belief and accepts it as a real environment. VR can be used in fear therapy, education, games etc. The first VR experience was in 1962, the Sensorama. People could see, hear, smell and touch things. It was revolutionary for that time. 
+				Augmented reality (AR) is a direct or indirect live view of a physical, real-world environment whose elements are "augmented" by computer-generated perceptual information. AR can be used in education, healthcare, art, martketing etc.</p>
+				<div class="afbeeldingen">
+					<figure><img src="styles/sensorama.png" alt="Nemo users' board" id="afbeeldingen" class="afbeeldingen"><figcaption>1962: Sensorama</figcaption></figure>
+				</div>
+			</article>
+		</main>
+		<footer><p>© 2019 Elvira Vriesema</p></footer>
+		<script src="main.js"></script>
+	</body>
+</html>

@@ -234,7 +234,7 @@ h2 {
     margin: 0px auto;
     margin-bottom: 30px;
     font-size: 20px;
-    width: 40%;
+    width: 46%;
     color: white;
     padding: 10px;
     background-color: rgb(147, 206, 226);
@@ -249,6 +249,12 @@ p {
     font-size: 15px;
     font-family: 'nunito', sans-serif;
     text-align: justify;
+}
+
+ol {
+ text-align: center;
+ padding-right: 30px;
+ list-style-position: inside;
 }
 
 h3 {
@@ -308,6 +314,7 @@ footer p {
 .welcometext {
     font-family: 'Open Sans';
     text-align: left;
+    margin-top: 0px;
 }
 
 .afbeeldingen {
@@ -326,8 +333,13 @@ h4 {
     font-size: 20px;
 }
 
+.sensorama {
+   height: 323px;
+}
+
 #article2 img, #article3 img, #article4 img {
-    max-width: 150px;
+    max-width: 300px;
+    max-height: 200px;
 }
 
 .afbeeldingen img {
@@ -397,6 +409,11 @@ figcaption {
     font-family: georgia;
     font-style: italic;
     padding-bottom: 10px;
+}
+
+#quote {
+    font-family: georgia;
+    font-style: italic;
 }
 
 #info {

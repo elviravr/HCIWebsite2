@@ -12,6 +12,19 @@ a {
     font-weight: bold;
 }
 
+.wrapper{
+  padding:1em;
+}
+
+h1{
+  transition: all 0.4s ease;
+}
+
+.wrapper:hover h1{
+  transition: all 0.4s ease;
+  transform: scaleY(-1);
+}
+
 a:hover {
     color: #9b0043;
 }
@@ -20,6 +33,11 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     height: 100%;
+}
+
+.greet {
+    animation: 6s ease-out 1s;
+
 }
 
 #logo {
